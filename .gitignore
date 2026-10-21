@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Arquivos de configuração local e segredos
+.env
+.env.*
+!.env.example
+
+# Saídas de compilação e cobertura
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
